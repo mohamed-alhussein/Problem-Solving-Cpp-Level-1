@@ -40,6 +40,7 @@ C++ problem solving and practice.
 - Problem 29
 - Problem 30
 - Problem 31
+- Problem 32
 ## Language
 
 - C++
