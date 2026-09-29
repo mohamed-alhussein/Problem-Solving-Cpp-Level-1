@@ -42,6 +42,9 @@ C++ problem solving and practice.
 - Problem 31
 - Problem 32
 - Problem 33
+- Problem 34
+- Problem 35
+- Problem 36
 ## Language
 
 - C++
