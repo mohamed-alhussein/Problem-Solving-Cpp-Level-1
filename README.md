@@ -1,4 +1,4 @@
-# Problem Solving C++ - Level 1
+ Problem Solving C++ - Level 1
 
 C++ problem solving and practice.
 
@@ -55,6 +55,17 @@ C++ problem solving and practice.
 - Problem 44✅
 - Problem 45✅
 - Problem 46✅
+- Problem 47✅
+- Problem 48✅
+- Problem 49✅
+- Problem 50✅
+- Problem 51✅
+- Problem 52✅
+- Problem 53✅
+- Problem 54✅
+- Problem 55✅
+- Problem 56✅
+
 ## Language
 
 - C++
