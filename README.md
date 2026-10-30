@@ -79,6 +79,16 @@ C++ problem solving and practice.
 - Problem 68✅
 - Problem 69✅
 - Problem 70✅
+- Problem 71✅
+- Problem 72✅
+- Problem 73✅
+- Problem 74✅
+- Problem 75✅
+- Problem 76✅
+- Problem 77✅
+- Problem 78✅
+- Problem 79✅
+- Problem 80✅
 
 ## Language
 
