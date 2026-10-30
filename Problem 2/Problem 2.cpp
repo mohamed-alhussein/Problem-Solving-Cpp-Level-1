@@ -36,8 +36,6 @@ void PrintAllNumbersFrom1ToN(int Number) {
 		}
 	}
 }
-
-
 int main() {
 	int Number = ReadPositiveNumber("Please enter a positive Number ?");
 	PrintAllNumbersFrom1ToN(Number);
