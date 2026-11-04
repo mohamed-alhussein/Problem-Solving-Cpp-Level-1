@@ -47,11 +47,12 @@ and each one is solved by its own function.
 
 **Features**
 
-- The player chooses the number of rounds
+- The player chooses the number of rounds (1 to 10)
 - The computer picks its choice randomly
 - Round-by-round summary: round number, player choice, computer choice, and round winner
-- Screen color changes according to the winner
+- Screen color changes according to the winner: green for the player, yellow for a draw, and red with a bell sound when the computer wins
 - Final result: total rounds, player wins, computer wins, draws, and the final winner
+- Input validation for the number of rounds and the player's choice
 - Option to play again
 
 **Concepts applied**
@@ -72,10 +73,11 @@ main
       │    ├── GetComputerChoice
       │    ├── WhoWonTheRound
       │    └── PrintRoundResult
+      ├── ShowGameOverScreen
       └── ShowFinalResultGame
 ```
 
-[View Project](PROJECT-FOLDER-NAME)
+[View Project](Project01)
 
 ### 2. Coming soon
 
@@ -118,4 +120,5 @@ g++ -std=c++17 file.cpp -o program
 Information Engineering Student
 
 [GitHub Profile](https://github.com/mohamed-alhussein)
+
 
