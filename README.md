@@ -2,7 +2,7 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![Problems](https://img.shields.io/badge/problems-100%2F100-success)
-![Projects](https://img.shields.io/badge/projects-1%2F2-blue)
+![Projects](https://img.shields.io/badge/projects-2%2F2-success)
 
 > C++ problem solving and practice, from easy to advanced, followed by projects that apply the same skills.
 
@@ -27,7 +27,7 @@ Projects are built on top of the same skills and live in this repository too.
 ## Goals
 
 - [x] Solve 100 problems
-- [ ] Build 2 projects
+- [x] Build 2 projects
 
 ## Progress
 
@@ -35,7 +35,7 @@ Projects are built on top of the same skills and live in this repository too.
 |-----------|--------|
 | Problems 01–100 | ✅ Completed |
 | Project 1: Rock Paper Scissors | ✅ Completed |
-| Project 2 | 🔄 Planned |
+| Project 2: Math Quiz Game | ✅ Completed |
 
 ## Projects
 
@@ -79,13 +79,58 @@ main
 
 [View Project](Project01)
 
-### 2. Coming soon
+### 2. Math Quiz Game
+
+A console quiz that tests the player's arithmetic. The player chooses how
+many questions to answer, the difficulty level, and the operation type.
+The program generates random questions, checks every answer, and prints a
+final Pass / Fail result.
+
+**Features**
+
+- The player chooses the number of questions (1 to 10)
+- Four levels: Easy (1–10), Medium (10–50), Hard (50–100), and Mix (a random level for each question)
+- Five operation types: addition, subtraction, multiplication, division, and Mix (a random operation for each question)
+- Instant feedback after each answer, showing the correct answer when the player is wrong
+- Final report: number of questions, level, operation type, right answers, wrong answers, and Pass / Fail (the player passes when the right answers are not fewer than the wrong answers)
+- Input validation for all user inputs
+- Option to play again
+
+**Concepts applied**
+
+- Functions and procedures (void functions)
+- Structs to model a question and a whole quiz
+- Array of structs to store the quiz questions
+- Passing structs by reference
+- Enums for levels and operation types
+- Random number generation
+- Loops and switch statements
+
+**Program flow**
+
+```text
+main
+ └── StartGame
+      └── PlayMathGame
+           ├── ReadHowManyQuestion / ReadQuestionLevel / ReadOpType
+           ├── GenerateQuizQuestions
+           │    └── GenerateQuestion ── SimpleCalculator
+           ├── AskAndCorrectQuestionListAnswers
+           │    ├── PrintTheQuestion
+           │    ├── ReadQuestionAnswer
+           │    └── CorrectQuestionAnswers
+           └── PrintQuizResult
+```
+
+[View Project](Project02)
 
 ## Skills Practiced
 
 - Algorithms and problem decomposition
 - Control flow, loops, and functions
 - Modeling data with structs and enums
+- Working with arrays of structs and passing structs by reference
+- Validating user input
 - Writing clean, readable C++ code
 - Version control with Git and GitHub
 
@@ -120,5 +165,3 @@ g++ -std=c++17 file.cpp -o program
 Information Engineering Student
 
 [GitHub Profile](https://github.com/mohamed-alhussein)
-
-
